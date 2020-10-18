@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.github.yelong0216.dream.first.product.dataferry</groupId>
+	<artifactId>data-ferry-plugin</artifactId>
+	<version>1.0.0</version>
+	<properties>
+		<data-ferry-core.version>[1.0.0,1.1.0)</data-ferry-core.version>
+		<amqp-client.version>5.7.1</amqp-client.version>
+		<ant.version>1.8.4</ant.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.github.yelong0216.dream.first.product.dataferry</groupId>
+			<artifactId>data-ferry-core</artifactId>
+			<version>${data-ferry-core.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+		<dependency>
+			<groupId>com.rabbitmq</groupId>
+			<artifactId>amqp-client</artifactId>
+			<version>${amqp-client.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.ant/ant -->
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant</artifactId>
+			<version>${ant.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
