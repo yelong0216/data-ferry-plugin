@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+dream.first.product.dataferry.plugin.configuration.DataFerryPluginConfiguration,\
+dream.first.product.dataferry.plugin.configuration.xml.XMLDataFerryPluginConfiguration,\
+dream.first.product.dataferry.plugin.configuration.DataFerryPluginRabbitMQConfiguration
