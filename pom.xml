@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.yelong0216.dream.first.product.dataferry</groupId>
 	<artifactId>data-ferry-plugin</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>data-ferry-plugin</name>
 	<url>https://github.com/yelong0216/data-ferry-plugin.git</url>
 	<description>data-ferry-plugin</description>
